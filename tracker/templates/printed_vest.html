@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="{% static 'myfirst.css' %}">
+<head>
+<title>Printed Vest for Men</title>
+</head>
+<body>
+
+
+<h1>Printed Vest for Men</h1>
+<p>Discover stylish printed sando baniyan made with soft cotton fabric. Ideal for daily wear and summer comfort.</p>
+
+
+<h2>Fabric</h2>
+<p>Breathable cotton, sweat‑absorbent, long‑lasting quality.</p>
+
+
+<h2>Style</h2>
+<p>Modern prints, perfect fitting, trendy designs.</p>
+
+
+<h2>Use Cases</h2>
+<ul>
+<li>Home wear</li>
+<li>Gym & workout</li>
+<li>Casual outdoor wear</li>
+</ul>
+
+
+<a href="https://www.flipkart.com" target="_blank" onclick="trackFlipkart()">View on Flipkart</a>
+
+
+<script>
+function trackFlipkart() {
+fetch('/track-flipkart-click/', { method: 'POST' });
+}
+</script>
+
+
+</body>
+</html>
