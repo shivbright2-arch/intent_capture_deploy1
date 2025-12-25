@@ -1,0 +1,1 @@
+web: gunicorn intent_capture.wsgi
