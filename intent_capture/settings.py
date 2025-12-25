@@ -96,7 +96,7 @@ DATABASES = {
 'ENGINE': 'django.db.backends.mysql',
 'NAME': 'intentdb',
 'USER': 'root',
-'PASSWORD': 'prudent',
+'PASSWORD': '',
 'HOST': 'localhost',
 'PORT': '3306',
 }
@@ -151,4 +151,5 @@ CSRF_TRUSTED_ORIGINS = [
 #Allow ngrok URL:
 CORS_ALLOWED_ORIGINS = [
     'https://catarina-uncontrolled-unmutinously.ngrok-free.dev',
+
 ]
